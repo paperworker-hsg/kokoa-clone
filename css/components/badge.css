@@ -9,3 +9,18 @@
   color: white;
   font-weight: 600;
 }
+
+.noti-dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  border-radius: 3px;
+  right: -8px;
+}
+
+.header__noti-dot {
+  right: 16px;
+  top: 50px;
+}

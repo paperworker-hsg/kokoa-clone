@@ -23,13 +23,3 @@
   left: 15px;
   bottom: 15px;
 }
-
-.nav__etcnotification {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  display: flex;
-  position: absolute;
-  border-radius: 3px;
-  right: -8px;
-}
