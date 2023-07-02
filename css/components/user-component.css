@@ -1,23 +1,5 @@
-@keyframes poping {
-  0% {
-    transform: none;
-  }
-
-  50% {
-    transform: translateY(-15px);
-  }
-
-  100% {
-    transform: none;
-  }
-}
-
 .user-component {
   justify-content: space-between;
-}
-
-.user-component:hover {
-  animation: poping 0.4s ease-in-out;
 }
 
 .user-component,
