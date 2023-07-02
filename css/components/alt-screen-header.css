@@ -10,6 +10,7 @@
 .alt-header__title {
   font-size: 32px;
   font-weight: 600;
+  line-height: 160%;
 }
 
 .alt-header__column {
