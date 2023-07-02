@@ -32,16 +32,16 @@
     transform: none;
   }
   25% {
-    transform: translateX(-1px);
+    transform: translateX(-2px);
   }
   50% {
-    transform: translateX(1px);
+    transform: translateX(2px);
   }
   75% {
-    transform: translateX(-1px);
+    transform: translateX(-2px);
   }
   100% {
-    transform: translateX(1px);
+    transform: translateX(2px);
   }
 }
 
@@ -81,6 +81,21 @@
   }
 }
 
+@keyframes hola {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: skew(10deg);
+  }
+  75% {
+    transform: skew(-10deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
 }
@@ -93,22 +108,22 @@
   animation: dancing 0.6s linear infinite;
 }
 
-.fa-comment-dots:hover {
+.fa-comment-dots:hover,
+.fa-comment:hover {
   animation: quake 0.3s linear infinite;
 }
 
-.fa-bars:hover {
+.fa-bars:hover,
+.fa-ellipsis-h:hover {
   animation: accordion 1s linear infinite;
 }
 
-.icon-row__icon:hover {
-  animation: poping 0.4s ease-in-out;
-}
-
+.icon-row__icon:hover,
+.more-suggestions__icon:hover,
 .user-component:hover {
   animation: poping 0.4s ease-in-out;
 }
 
-.more-suggestions__icon:hover {
-  animation: poping 0.4s ease-in-out;
+.fa-user:hover {
+  animation: hola 0.7s linear infinite;
 }
