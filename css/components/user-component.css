@@ -1,5 +1,23 @@
+@keyframes poping {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
 .user-component {
   justify-content: space-between;
+}
+
+.user-component:hover {
+  animation: poping 0.4s ease-in-out;
 }
 
 .user-component,
@@ -13,17 +31,22 @@
   height: 70px;
   border-radius: 27px;
   margin-right: 20px;
+  border: 0.25px solid var(--yellow);
+  border-radius: 50%;
 }
 
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+  border: 0.25px solid var(--yellow);
+  border-radius: 50%;
 }
 
 .user-component__avatar--sm {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
+  width: 80px;
+  height: 80px;
+  border: 0.25px solid var(--yellow);
+  border-radius: 50%;
 }
 
 .user-component__title {

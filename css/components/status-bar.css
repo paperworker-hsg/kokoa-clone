@@ -4,11 +4,11 @@
   position: fixed;
   top: 2px;
   width: 100%;
-  padding: 5px 3px;
+  padding: 5px 5px;
 }
 
 .status-bar__column {
-  width: 33%;
+  width: 32%;
 }
 
 .status-bar__column:first-child span {
@@ -27,5 +27,5 @@
 }
 
 .status-bar__column .fa-battery-full {
-  margin: 0px 3px;
+  margin: 0px 5px;
 }

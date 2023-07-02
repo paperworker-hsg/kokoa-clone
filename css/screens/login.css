@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.welcome-header img {
+  width: 160px;
+}
+
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
