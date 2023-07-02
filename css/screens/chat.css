@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: #cde8ac;
   height: 500vh;
 }
 
@@ -8,7 +8,7 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: #cde8ac;
   box-sizing: border-box;
 }
 
@@ -45,7 +45,7 @@
 
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
+  background-color: #a4b07e;
   font-size: 14px;
   padding: 15px;
   border-radius: 25px;
@@ -92,6 +92,12 @@
   border-radius: 15px;
   border-top-left-radius: 0px;
   margin-right: 5px;
+  line-height: 160%;
+}
+
+.message__unread {
+  color: var(--yellow);
+  font-size: 13px;
 }
 
 .message__author,
